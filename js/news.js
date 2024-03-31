@@ -136,8 +136,6 @@ const newsPagination = (traget) => {
       sliderItem.setAttribute("data-transformX", transformX);
     });
 
-    console.log(sliderItem.children[1].clientWidth);
-
     pagination.children[2].addEventListener("click", () => {
       pagination.children[0].classList.remove("pagination-active");
       pagination.children[1].classList.remove("pagination-active");

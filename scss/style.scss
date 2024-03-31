@@ -190,7 +190,7 @@
     .header-middel {
       .header-middel-content {
         display: flex;
-        justify-content: space-between !important;
+        justify-content: space-between;
         padding: 25px 0;
 
         .evani-brand {
@@ -337,7 +337,7 @@
 
           .nav-menu {
             position: fixed;
-            width: 320px;
+            width: 68%;
             background-color: #ffffff;
             left: 0;
             top: 0;
@@ -666,8 +666,8 @@
             align-items: center;
             justify-content: center;
             position: absolute;
-            top: 78px !important;
-            right: 20px;
+            top: 80px !important;
+            right: 31px;
 
             span {
               display: block;

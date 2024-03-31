@@ -38,8 +38,6 @@ const showMenuBar = () => {
     element.style.display = "block";
   };
 
-  console.log(menuItem[0].children[0]);
-
   const hideSubMenu = () => {
     hidden(goBack);
 
@@ -54,6 +52,8 @@ const showMenuBar = () => {
     menuItem[2].children[0].style.display = "block";
     menuItem[3].children[0].style.display = "block";
     menuItem[4].children[0].style.display = "block";
+
+    currentTitle.innerHTML = " ";
   };
 
   goBack.addEventListener("click", hideSubMenu);
@@ -68,8 +68,6 @@ const showMenuBar = () => {
     menuItem[4].children[0].style.display = "none";
     visible(menuItem[0].children[1]);
   });
-
-  console.log(menuItem[1].children[1]);
 
   menuItem[1].addEventListener("click", () => {
     visible(goBack);
